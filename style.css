@@ -1,0 +1,63 @@
+body{
+    font-family: Arial;
+    background:#f4f6f9;
+    text-align:center;
+}
+
+.container{
+    width:700px;
+    margin:auto;
+    margin-top:30px;
+}
+
+h1{
+    color:#222;
+}
+
+.controls{
+    margin:20px;
+}
+
+select,button{
+    padding:10px;
+    margin:5px;
+    font-size:16px;
+}
+
+.maze{
+    display:grid;
+    grid-template-columns:repeat(5,70px);
+    gap:5px;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.cell{
+    width:70px;
+    height:70px;
+    background:white;
+    border:1px solid gray;
+}
+
+.wall{
+    background:black;
+}
+
+.start{
+    background:green;
+}
+
+.goal{
+    background:red;
+}
+
+.path{
+    background:skyblue;
+}
+
+.result{
+    margin-top:30px;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+}
